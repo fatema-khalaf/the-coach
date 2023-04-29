@@ -112,7 +112,6 @@
       <div class="layout-container">
         <!-- Menu -->
 
-        
         <aside
           id="layout-menu"
           class="layout-menu menu-vertical menu bg-menu-theme"
@@ -210,13 +209,13 @@
           <div class="menu-inner-shadow"></div>
 
           <ul class="menu-inner py-1">
-            <li class="menu-item ">
+            <li class="menu-item">
               <a href="index.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div>Dashboard</div>
               </a>
             </li>
-            <li class="menu-item active">
+            <li class="menu-item">
               <a href="services-managment.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div>Service Management</div>
@@ -234,7 +233,7 @@
                 <div>Users Management</div>
               </a>
             </li>
-            <li class="menu-item">
+            <li class="menu-item active">
               <a href="subscriptions-managment.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-user-check"></i>
                 <div>Subscriptions Management</div>
@@ -382,7 +381,6 @@
                   <!--/ User -->
                 </ul>
               </div>
-
             </div>
           </nav>
 
@@ -393,29 +391,20 @@
             <!-- Content -->
             <div class="container-xxl flex-grow-1 container-p-y">
               <h4 class="py-3 breadcrumb-wrapper mb-4">
-                <span class="text-muted fw-light">Service management /</span>
-                All Services
+                <span class="text-muted fw-light"
+                  >Subscriptions Management /</span
+                >
+                All Subscriptions
               </h4>
               <div class="card">
-                <div class="card-header row mx-2 ">
+                <div class="card-header row mx-2">
                   <div class="col align-self-center ps-0">
-                    <h5 class="mt-1 mb-1">All Services</h5>
+                    <h5 class="mt-1 mb-1">All Subscriptions</h5>
                   </div>
                   <div class="col">
                     <div
                       class="text-end d-flex justify-content-end flex-md-row flex-column mb-1"
-                    >
-                      <div class="flex-wrap">
-                        <a class="btn btn-secondary add-new btn-primary"  href="add-new-service.html">
-                          <span
-                            ><i class="bx bx-plus me-0 me-lg-2"></i
-                            ><span class="d-none d-lg-inline-block"
-                              >Add New Service</span
-                            ></span
-                          >
-                            </a>
-                      </div>
-                    </div>
+                    ></div>
                   </div>
                 </div>
 
@@ -425,10 +414,9 @@
                     <table id="example" class="table table-bordered">
                       <thead class="table-light">
                         <tr>
-                          <th>Name</th>
-                          <th>Type</th>
-                          <th>Price</th>
-                          <th>Currency</th>
+                          <th>Subscriber Name</th>
+                          <th>Service Name</th>
+                          <th>Service Type</th>
                           <th>Start date</th>
                           <th>End date</th>
                           <th>Status</th>
@@ -439,11 +427,10 @@
                       <tbody class="">
                         <tr>
                           <td>
-                            <strong>Service name</strong>
+                            <strong>Subscriber name</strong>
                           </td>
-                          <td>Service type</td>
-                          <td>100</td>
-                          <td>$</td>
+                          <td>Service Name</td>
+                          <td>Service Type</td>
                           <td>12/12/2023</td>
                           <td>12/12/2023</td>
                           <td>
@@ -470,7 +457,7 @@
                           </td>
                           <td>
                             <div class="d-inline-block text-nowrap">
-                              <a class="btn btn-sm btn-icon" href="edit-service.html">
+                              <a class="btn btn-sm btn-icon" href="edit-subscription.html">
                                 <i class="bx bx-edit"></i></a
                               ><button
                                 class="btn btn-sm btn-icon delete-record text-danger"

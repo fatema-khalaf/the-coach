@@ -26,6 +26,7 @@
     />
     <!-- Canonical SEO -->
     <link rel="canonical" href="https://1.envato.market/frest_admin" />
+
     <!-- Favicon -->
     <link
       rel="icon"
@@ -96,7 +97,10 @@
       rel="stylesheet"
       href="../../assets/vendor/libs/pickr/pickr-themes.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/bootstrap-maxlength/bootstrap-maxlength.css"
+    />
     <!-- Page CSS -->
 
     <!-- Helpers -->
@@ -218,7 +222,7 @@
                 <div>Dashboard</div>
               </a>
             </li>
-            <li class="menu-item">
+            <li class="menu-item active">
               <a href="services-managment.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div>Service Management</div>
@@ -230,7 +234,7 @@
                 <div>Programming Properties Management</div>
               </a>
             </li>
-            <li class="menu-item active">
+            <li class="menu-item">
               <a href="users-managment.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-user"></i>
                 <div>Users Management</div>
@@ -395,20 +399,31 @@
 
             <div class="container-xxl flex-grow-1 container-p-y">
               <h4 class="py-3 breadcrumb-wrapper mb-4">
-                <span class="text-muted fw-light">Users Management /</span>
-                Add New Coach
+                <span class="text-muted fw-light"
+                  >Subscriptions management /</span
+                >
+                Edit Subscription
               </h4>
 
               <div class="row">
                 <div class="col-md-12">
                   <div class="card mb-4">
-                    <h5 class="card-header">Coach Details</h5>
+                    <h5 class="card-header">Subscribe to a service</h5>
                     <hr class="my-0" />
-                    <div class="card-body">
-                      <form id="" method="POST" onsubmit="return false">
+                  <form
+                    id=""
+                    class="form-repeater"
+                    method="POST"
+                    onsubmit="return false"
+                  >
+                    
+                      <h6 class="card-header ">The Coach</h6>
+                      
+                      <div class="card-body">
+                        
                         <div class="row">
-                          <div class="mb-3 col-md-12">
-                            <label for="" class="form-label">User Name</label>
+                          <div class="mb-3 col-md-4">
+                            <label for="" class="form-label">Name</label>
                             <input
                               class="form-control"
                               type="text"
@@ -418,8 +433,7 @@
                               autofocus=""
                             />
                           </div>
-
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-md-4">
                             <label for="email" class="form-label">E-mail</label>
                             <input
                               class="form-control"
@@ -430,7 +444,7 @@
                               placeholder="email@example.com"
                             />
                           </div>
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-md-4">
                             <label class="form-label" for="phoneNumber"
                               >Phone Number</label
                             >
@@ -444,58 +458,16 @@
                               />
                             </div>
                           </div>
-                          <div
-                            class="mb-3 col-md-6 form-password-toggle fv-plugins-icon-container"
-                          >
-                            <label class="form-label" for="newPassword"
-                              >New Password</label
+                        </div>
+                      </div>
+                      <hr class="my-0" />
+                      <h6 class="card-header">The Subscription</h6>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="mb-3 col-md-6">
+                            <label for="" class="form-label"
+                              >Service Name</label
                             >
-                            <div
-                              class="input-group input-group-merge has-validation"
-                            >
-                              <input
-                                class="form-control"
-                                type="password"
-                                id="newPassword"
-                                name="newPassword"
-                                placeholder="············"
-                              />
-                              <span class="input-group-text cursor-pointer"
-                                ><i class="bx bx-hide"></i
-                              ></span>
-                            </div>
-                            <div
-                              class="fv-plugins-message-container invalid-feedback"
-                            ></div>
-                          </div>
-                          <div
-                            class="mb-3 col-md-6 form-password-toggle fv-plugins-icon-container fv-plugins-bootstrap5-row-invalid"
-                          >
-                            <label class="form-label" for="confirmPassword"
-                              >Confirm Password</label
-                            >
-                            <div
-                              class="input-group input-group-merge has-validation"
-                            >
-                              <input
-                                class="form-control is-invalid"
-                                type="text"
-                                name="confirmPassword"
-                                id="confirmPassword"
-                                placeholder="············"
-                              />
-                              <span class="input-group-text cursor-pointer"
-                                ><i class="bx bx-show"></i
-                              ></span>
-                            </div>
-                            <div
-                              class="fv-plugins-message-container text-danger"
-                            >
-                              <div>Password must be more than 8 characters</div>
-                            </div>
-                          </div>
-                          <div class="mb-3 col-md-12">
-                            <label for="" class="form-label">Additional information</label>
                             <input
                               class="form-control"
                               type="text"
@@ -505,29 +477,106 @@
                               autofocus=""
                             />
                           </div>
+                          <div class="mb-3 col-md-6">
+                            <label class="form-label" for=""
+                              >Service Type</label
+                            >
+                            <select id="" class="select2 form-select">
+                              <option value="">Select Type</option>
+                              <option value="">Coach service</option>
+                            </select>
+                          </div>
+
+                          <div class="mb-3 col-md-6">
+                            <label for="" class="form-label">Price</label>
+                            <input
+                              class="form-control"
+                              type="text"
+                              id=""
+                              name=""
+                              value=""
+                              autofocus=""
+                            />
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label class="form-label" for="">Currency</label>
+                            <select id="" class="select2 form-select">
+                              <option value="">USD</option>
+                              <option value="">TL</option>
+                            </select>
+                          </div>
                         </div>
-                        <div class="mt-2">
-                          <button type="submit" class="btn btn-primary me-2">
-                            Save
-                          </button>
-                          <button type="reset" class="btn btn-label-secondary">
+                      </div>
+                      <hr class="my-0" />
+                      <h6 class="card-header">Payment</h6>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="mb-3 col-md-6">
+                            <label for="" class="form-label"
+                              >Payment Type</label
+                            >
+                            <input
+                              class="form-control"
+                              type="text"
+                              id=""
+                              name=""
+                              value=""
+                              autofocus=""
+                            />
+                          </div>
+                          <div class="mb-3 col-md-3">
+                            <label class="form-label" for="">Auto Renewal</label>
+                            <select id="" class="select2 form-select">
+                              <option value="">Yes</option>
+                              <option value="">no</option>
+                            </select>
+                          </div>
+                          <div class="mb-3 col-md-3">
+                            <label class="form-label" for="">Status</label>
+                            <select id="" class="select2 form-select">
+                              <option value="">Not Paid</option>
+                              <option value="">Paid</option>
+                            </select>
+                          </div>
+                          <div class="col-md-6 col-12 mb-4">
+                            <label for="flatpickr-date" class="form-label"
+                              >Start Date</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="YYYY-MM-DD"
+                              id="flatpickr-date"
+                            />
+                          </div>
+
+                          <div class="col-md-6 col-12 mb-4">
+                            <label for="flatpickr-date-2" class="form-label"
+                              >End Date</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="YYYY-MM-DD"
+                              id="flatpickr-date-2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-0" />
+                    
+                      <div class="card-body">
+                        <div class="mt-2 text-end">
+                          <a type="submit" class="btn btn-success me-2" href="payment.html">
+                            Pay
+                          </a>
+                          <button type="reset" class="btn btn-label-danger">
                             Cancel
                           </button>
                         </div>
-                      </form>
-                      <div class="divider my-4">
-                        <div class="divider-text">or</div>
-                      </div>
-                      <div class="d-flex justify-content-center">
-                        <a href="javascript:;" class="btn btn-secondary btn-label-google-plus me-3">
-                          <i class=" bx bxl-google-plus me-0 me-lg-2"></i>
-                          <span class="d-none d-lg-inline-block"
-                              >Sign up with google</span
-                            ></span>
-                        </a>
                       </div>
                     </div>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>
@@ -592,6 +641,7 @@
       </div>
     </div>
     <!--/ Confirm delete modal -->
+
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
     <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
@@ -615,13 +665,18 @@
     <script src="../../assets/vendor/libs/cleavejs/cleave.js"></script>
     <script src="../../assets/vendor/libs/cleavejs/cleave-phone.js"></script>
     <script src="../../assets/vendor/libs/sweetalert2/sweetalert2.js"></script>
+    <script src="../../assets/vendor/libs/flatpickr/flatpickr.js"></script>
+    <script src="../../assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="../../assets/vendor/libs/jquery-repeater/jquery-repeater.js"></script>
+    <script src="../../assets/vendor/libs/pickr/pickr.js"></script>
 
     <!-- Main JS -->
     <script src="../../assets/js/main.js"></script>
 
     <!-- Page JS -->
     <script src="../../assets/js/pages-account-settings-account.js"></script>
-    <script src="../../assets/js/pages-account-settings-security.js"></script>
+    <script src="../../assets/js/forms-pickers.js"></script>
+    <script src="../../assets/js/forms-extras.js"></script>
 
     <!-- Data Table  -->
     <script>

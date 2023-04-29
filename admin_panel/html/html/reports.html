@@ -13,7 +13,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
-
     <title>Admin Template</title>
 
     <meta
@@ -40,10 +39,9 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
     <!-- Icons -->
+    <link rel="stylesheet" href="../../assets/icons/css/all.css" />
     <link rel="stylesheet" href="../../assets/vendor/fonts/boxicons.css" />
-    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
     <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" />
 
     <!-- Core CSS -->
@@ -60,6 +58,82 @@
     <link rel="stylesheet" href="../../assets/css/demo.css" />
 
     <!-- Vendors CSS -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/typeahead-js/typeahead.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/flatpickr/flatpickr.css"
+    />
+    <!-- Row Group CSS -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/datatables-rowgroup-bs5/rowgroup.bootstrap5.css"
+    />
+    <!-- Form Validation -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/formvalidation/dist/css/formValidation.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/typeahead-js/typeahead.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/formvalidation/dist/css/formValidation.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/animate-css/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/sweetalert2/sweetalert2.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/flatpickr/flatpickr.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/pickr/pickr-themes.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/bootstrap-maxlength/bootstrap-maxlength.css"
+    />
+
     <link
       rel="stylesheet"
       href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
@@ -96,16 +170,11 @@
       rel="stylesheet"
       href="../../assets/vendor/libs/pickr/pickr-themes.css"
     />
-
     <!-- Page CSS -->
 
     <!-- Helpers -->
     <script src="../../assets/vendor/js/helpers.js"></script>
-
-    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
-    <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
     <script src="../../assets/vendor/js/template-customizer.js"></script>
-    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="../../assets/js/config.js"></script>
   </head>
 
@@ -218,7 +287,7 @@
                 <div>Dashboard</div>
               </a>
             </li>
-            <li class="menu-item">
+            <li class="menu-item active">
               <a href="services-managment.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div>Service Management</div>
@@ -230,7 +299,7 @@
                 <div>Programming Properties Management</div>
               </a>
             </li>
-            <li class="menu-item active">
+            <li class="menu-item">
               <a href="users-managment.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-user"></i>
                 <div>Users Management</div>
@@ -392,141 +461,132 @@
           <!-- Content wrapper -->
           <div class="content-wrapper">
             <!-- Content -->
-
             <div class="container-xxl flex-grow-1 container-p-y">
               <h4 class="py-3 breadcrumb-wrapper mb-4">
-                <span class="text-muted fw-light">Users Management /</span>
-                Add New Coach
+                <span class="text-muted fw-light">Reports /</span>
+                Sales Record
               </h4>
+              <div class="card">
+                <div class="card-header row mx-2">
+                  <div class="col align-self-center ps-0">
+                    <h5 class="mt-1 mb-1">Sales Record</h5>
+                  </div>
+                </div>
 
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="card mb-4">
-                    <h5 class="card-header">Coach Details</h5>
-                    <hr class="my-0" />
-                    <div class="card-body">
-                      <form id="" method="POST" onsubmit="return false">
-                        <div class="row">
-                          <div class="mb-3 col-md-12">
-                            <label for="" class="form-label">User Name</label>
-                            <input
-                              class="form-control"
-                              type="text"
-                              id=""
-                              name=""
-                              value=""
-                              autofocus=""
-                            />
-                          </div>
-
-                          <div class="mb-3 col-md-6">
-                            <label for="email" class="form-label">E-mail</label>
-                            <input
-                              class="form-control"
-                              type="text"
-                              id="email"
-                              name="email"
-                              value="email@example.com"
-                              placeholder="email@example.com"
-                            />
-                          </div>
-                          <div class="mb-3 col-md-6">
-                            <label class="form-label" for="phoneNumber"
-                              >Phone Number</label
-                            >
-                            <div class="input-group input-group-merge">
-                              <input
-                                type="text"
-                                id="phoneNumber"
-                                name="phoneNumber"
-                                class="form-control"
-                                placeholder="202 555 0111"
-                              />
-                            </div>
-                          </div>
-                          <div
-                            class="mb-3 col-md-6 form-password-toggle fv-plugins-icon-container"
-                          >
-                            <label class="form-label" for="newPassword"
-                              >New Password</label
-                            >
-                            <div
-                              class="input-group input-group-merge has-validation"
-                            >
-                              <input
-                                class="form-control"
-                                type="password"
-                                id="newPassword"
-                                name="newPassword"
-                                placeholder="············"
-                              />
-                              <span class="input-group-text cursor-pointer"
-                                ><i class="bx bx-hide"></i
-                              ></span>
-                            </div>
-                            <div
-                              class="fv-plugins-message-container invalid-feedback"
-                            ></div>
-                          </div>
-                          <div
-                            class="mb-3 col-md-6 form-password-toggle fv-plugins-icon-container fv-plugins-bootstrap5-row-invalid"
-                          >
-                            <label class="form-label" for="confirmPassword"
-                              >Confirm Password</label
-                            >
-                            <div
-                              class="input-group input-group-merge has-validation"
-                            >
-                              <input
-                                class="form-control is-invalid"
-                                type="text"
-                                name="confirmPassword"
-                                id="confirmPassword"
-                                placeholder="············"
-                              />
-                              <span class="input-group-text cursor-pointer"
-                                ><i class="bx bx-show"></i
-                              ></span>
-                            </div>
-                            <div
-                              class="fv-plugins-message-container text-danger"
-                            >
-                              <div>Password must be more than 8 characters</div>
-                            </div>
-                          </div>
-                          <div class="mb-3 col-md-12">
-                            <label for="" class="form-label">Additional information</label>
-                            <input
-                              class="form-control"
-                              type="text"
-                              id=""
-                              name=""
-                              value=""
-                              autofocus=""
-                            />
-                          </div>
-                        </div>
-                        <div class="mt-2">
-                          <button type="submit" class="btn btn-primary me-2">
-                            Save
-                          </button>
-                          <button type="reset" class="btn btn-label-secondary">
-                            Cancel
-                          </button>
-                        </div>
-                      </form>
-                      <div class="divider my-4">
-                        <div class="divider-text">or</div>
+                <hr class="my-1" />
+                <div class="card-body">
+                  <form
+                    id=""
+                    class="form-repeater"
+                    method="POST"
+                    onsubmit="return false"
+                  >
+                    <div class="row">
+                      <div class="mb-3 col-md-4">
+                        <label class="form-label" for="">Service Type</label>
+                        <select id="" class="select2 form-select">
+                          <option value="">Select Type</option>
+                          <option value="">All</option>
+                          <option value="">Coach service</option>
+                        </select>
                       </div>
-                      <div class="d-flex justify-content-center">
-                        <a href="javascript:;" class="btn btn-secondary btn-label-google-plus me-3">
-                          <i class=" bx bxl-google-plus me-0 me-lg-2"></i>
-                          <span class="d-none d-lg-inline-block"
-                              >Sign up with google</span
-                            ></span>
-                        </a>
+                      <div class="mb-3 col-md-4">
+                        <label for="flatpickr-date" class="form-label"
+                          >Start Date</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="YYYY-MM-DD"
+                          id="flatpickr-date"
+                        />
+                      </div>
+
+                      <div class="mb-3 col-md-4">
+                        <label for="flatpickr-date-2" class="form-label"
+                          >End Date</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="YYYY-MM-DD"
+                          id="flatpickr-date-2"
+                        />
                       </div>
                     </div>
+
+                    <hr class="" />
+
+                    <div class="mt-2 text-end">
+                      <button
+                        type="submit"
+                        class="btn btn-secondary add-new btn-primary me-2"
+                      >
+                        <span
+                          ><i class="bx bx-save me-0 me-lg-2"></i
+                          ><span class="d-none d-lg-inline-block"
+                            >Save Report</span
+                          ></span
+                        >
+                      </button>
+                      <button
+                        type="reset"
+                        class="btn btn-secondary add-new btn-primary"
+                      >
+                        <span
+                          ><i class="fa-solid fa-eye me-0 me-lg-2"></i>
+                          <span class="d-none d-lg-inline-block"
+                            >View Report</span
+                          ></span
+                        >
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="card mt-4">
+                <div class="card-body">
+                  <div class="table-responsive card-datatable text-wrap">
+                    <table id="example" class="table table-bordered">
+                      <thead class="table-light">
+                        <tr>
+                          <th>Subscriber Name</th>
+                          <th>Service Name</th>
+                          <th>Service Type</th>
+                          <th>Start date</th>
+                          <th>End date</th>
+                          <th>Price</th>
+                          <th>Status</th>
+                          <th>Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody class="">
+                        <tr>
+                          <td>
+                            <strong>Subscriber name</strong>
+                          </td>
+                          <td>Service Name</td>
+                          <td>Service Type</td>
+                          <td>12/12/2023</td>
+                          <td>12/12/2023</td>
+                          <td>3000</td>
+                          <td>
+                            <span class="badge bg-label-primary me-1"
+                              >Active</span
+                            >
+                          </td>
+                          <td>
+                            <div class="d-inline-block text-nowrap">
+                              <a class="btn btn-sm rounded-pill btn-outline-warning" href="view-report.html">
+                                <i class="fa-solid fa-eye me-2"></i>
+                                <span>View</span>
+                                </a
+                              >
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
@@ -550,7 +610,6 @@
       <!-- Drag Target Area To SlideIn Menu On Small Screens -->
       <div class="drag-target"></div>
     </div>
-    <!-- / Layout wrapper -->
     <!-- Confirm delete modal -->
     <div class="modal fade" id="confirmDelete" tabindex="-1" aria-hidden="true">
       <div
@@ -608,20 +667,27 @@
     <!-- endbuild -->
 
     <!-- Vendors JS -->
+    <script src="../../assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+    <!-- Flat Picker -->
+    <script src="../../assets/vendor/libs/moment/moment.js"></script>
+    <script src="../../assets/vendor/libs/flatpickr/flatpickr.js"></script>
     <script src="../../assets/vendor/libs/select2/select2.js"></script>
-    <script src="../../assets/vendor/libs/formvalidation/dist/js/FormValidation.min.js"></script>
-    <script src="../../assets/vendor/libs/formvalidation/dist/js/plugins/Bootstrap5.min.js"></script>
-    <script src="../../assets/vendor/libs/formvalidation/dist/js/plugins/AutoFocus.min.js"></script>
+
     <script src="../../assets/vendor/libs/cleavejs/cleave.js"></script>
     <script src="../../assets/vendor/libs/cleavejs/cleave-phone.js"></script>
     <script src="../../assets/vendor/libs/sweetalert2/sweetalert2.js"></script>
+    <script src="../../assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="../../assets/vendor/libs/pickr/pickr.js"></script>
+    <script src="../../assets/js/pages-account-settings-account.js"></script>
+
+    <!-- Form Validation -->
+    <script src="../../assets/vendor/libs/formvalidation/dist/js/FormValidation.min.js"></script>
+    <script src="../../assets/vendor/libs/formvalidation/dist/js/plugins/Bootstrap5.min.js"></script>
+    <script src="../../assets/vendor/libs/formvalidation/dist/js/plugins/AutoFocus.min.js"></script>
 
     <!-- Main JS -->
     <script src="../../assets/js/main.js"></script>
-
-    <!-- Page JS -->
-    <script src="../../assets/js/pages-account-settings-account.js"></script>
-    <script src="../../assets/js/pages-account-settings-security.js"></script>
+    <script src="../../assets/js/forms-pickers.js"></script>
 
     <!-- Data Table  -->
     <script>

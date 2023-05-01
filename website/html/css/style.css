@@ -90,6 +90,18 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+  font-family: 'arabic';
+  src: url("../fonts/Tajawal-Black.ttf");
+  src: url("../fonts/Tajawal-Bold.ttf") format("truetype"),
+       url("../fonts/Tajawal-ExtraBold.ttf") format("truetype"),
+       url("../fonts/Tajawal-Medium.ttf") format("truetype"),
+       url("../fonts/Tajawal-Regular.ttf") format("truetype"),
+       url("../fonts/Tajawal-Light.ttf") format("truetype"),
+       url("../fonts/Tajawal-ExtraLight.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
   font-family: 'Conv_Muli-SemiBold';
@@ -105,7 +117,7 @@
 /*** 
 
 ====================================================================
-	Global Settings
+	Global Settings #d6c6d9
 ====================================================================
 
  ***/
@@ -119,9 +131,11 @@ body {
 	background:#ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-family: 'Lato', sans-serif;
+	font-family:  'Lato', sans-serif;
 }
-
+.lan-font{
+	font-family:  'arabic','Lato', sans-serif;
+}
 a{
 	text-decoration:none;
 	cursor:pointer;
@@ -5523,7 +5537,7 @@ img{
 
 .motivation-section{
 	position:relative;
-	padding:200px 0px 120px;
+	padding:100px 0px 120px;
 }
 
 .motivation-section .sec-title .section-color-layer{

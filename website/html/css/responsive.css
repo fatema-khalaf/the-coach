@@ -531,7 +531,10 @@
 }
 
 @media only screen and (max-width: 767px){
-	
+	.logo-res-corner {
+		display: flex;
+	}
+
 	.header-upper .logo-outer{
 		position:relative;
 		left:0px;
@@ -1547,5 +1550,6 @@
 		padding-right:20px;
 		padding-bottom:25px;
 	}
+
 	
 }

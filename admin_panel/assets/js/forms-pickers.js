@@ -2,6 +2,8 @@
 !(function () {
   var e = document.querySelector("#flatpickr-date"),
     fff = document.querySelector("#flatpickr-date-2"),
+    sss = document.querySelector("#flatpickr-date-3"),
+    ddd = document.querySelector("#flatpickr-date-4"),
     t = document.querySelector("#flatpickr-time"),
     a = document.querySelector("#flatpickr-datetime"),
     i = document.querySelector("#flatpickr-multi"),
@@ -11,6 +13,8 @@
     l = document.querySelector("#flatpickr-disabled-range");
     e && e.flatpickr({ monthSelectorType: "static" }),
     fff && fff.flatpickr({ monthSelectorType: "static" }),
+    sss && sss.flatpickr({ monthSelectorType: "static" }),
+    ddd && ddd.flatpickr({ monthSelectorType: "static" }),
     t && t.flatpickr({ enableTime: !0, noCalendar: !0 }),
     a && a.flatpickr({ enableTime: !0, dateFormat: "Y-m-d H:i" }),
     i &&

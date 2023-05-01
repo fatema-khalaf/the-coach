@@ -26,6 +26,7 @@
     />
     <!-- Canonical SEO -->
     <link rel="canonical" href="https://1.envato.market/frest_admin" />
+
     <!-- Favicon -->
     <link
       rel="icon"
@@ -40,8 +41,8 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
     <!-- Icons -->
-    <link rel="stylesheet" href="../../assets/icons/css/all.css" />
     <link rel="stylesheet" href="../../assets/vendor/fonts/boxicons.css" />
     <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
     <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" />
@@ -70,40 +71,45 @@
     />
     <link
       rel="stylesheet"
-      href="../../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css"
+      href="../../assets/vendor/libs/select2/select2.css"
     />
     <link
       rel="stylesheet"
-      href="../../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css"
+      href="../../assets/vendor/libs/formvalidation/dist/css/formValidation.min.css"
     />
     <link
       rel="stylesheet"
-      href="../../assets/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css"
+      href="../../assets/vendor/libs/animate-css/animate.css"
     />
     <link
       rel="stylesheet"
-      href="../../assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css"
+      href="../../assets/vendor/libs/sweetalert2/sweetalert2.css"
     />
     <link
       rel="stylesheet"
       href="../../assets/vendor/libs/flatpickr/flatpickr.css"
     />
-    <!-- Row Group CSS -->
     <link
       rel="stylesheet"
-      href="../../assets/vendor/libs/datatables-rowgroup-bs5/rowgroup.bootstrap5.css"
+      href="../../assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.css"
     />
-    <!-- Form Validation -->
     <link
       rel="stylesheet"
-      href="../../assets/vendor/libs/formvalidation/dist/css/formValidation.min.css"
+      href="../../assets/vendor/libs/pickr/pickr-themes.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/bootstrap-maxlength/bootstrap-maxlength.css"
+    />
     <!-- Page CSS -->
 
     <!-- Helpers -->
     <script src="../../assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
     <script src="../../assets/vendor/js/template-customizer.js"></script>
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="../../assets/js/config.js"></script>
   </head>
 
@@ -216,7 +222,7 @@
                 <div>Dashboard</div>
               </a>
             </li>
-            <li class="menu-item">
+            <li class="menu-item active">
               <a href="services-managment.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div>Service Management</div>
@@ -234,7 +240,7 @@
                 <div>Users Management</div>
               </a>
             </li>
-            <li class="menu-item active">
+            <li class="menu-item">
               <a href="subscriptions-managment.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-user-check"></i>
                 <div>Subscriptions Management</div>
@@ -390,102 +396,217 @@
           <!-- Content wrapper -->
           <div class="content-wrapper">
             <!-- Content -->
+
             <div class="container-xxl flex-grow-1 container-p-y">
               <h4 class="py-3 breadcrumb-wrapper mb-4">
-                <span class="text-muted fw-light">My Subscriptions</span>
+                <span class="text-muted fw-light">My Subscriptions /</span>
+                Upgrade Subscription
               </h4>
-              <div class="card">
-                <div class="card-header row mx-2">
-                  <div class="col align-self-center ps-0">
-                    <h5 class="mt-1 mb-1">All Subscriptions</h5>
-                  </div>
-                  <div class="col">
-                    <div
-                      class="text-end d-flex justify-content-end flex-md-row flex-column mb-1"
-                    ></div>
-                  </div>
-                </div>
 
-                <hr class="my-1" />
-                <div class="card-body">
-                  <div class="table-responsive card-datatable text-wrap">
-                    <table id="example" class="table table-bordered">
-                      <thead class="table-light">
-                        <tr>
-                          <th>Service Name</th>
-                          <th>Service Type</th>
-                          <th>Price</th>
-                          <th>Currency</th>
-                          <th>Start date</th>
-                          <th>End date</th>
-                          <th>Renew / Upgrade</th>
-                          <th>Actions</th>
-                        </tr>
-                      </thead>
-                      <tbody class="">
-                        <tr>
-                          <td>
-                            <strong>Service Name</strong>
-                          </td>
-                          <td>Service Type</td>
-                          <td>3000</td>
-                          <td>USD</td>
-                          <td>12/12/2023</td>
-                          <td>12/12/2023</td>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card mb-4">
+                    <h5 class="card-header">Upgrade Service Subscription</h5>
+                    <hr class="my-0" />
+                    <form
+                      id=""
+                      class="form-repeater"
+                      method="POST"
+                      onsubmit="return false"
+                    >
+                      <h6 class="card-header">The Coach</h6>
 
-                          <td>
-                            <div class="">
-                              <div
-                                class="demo-inline-spacing d-flex justify-content-evenly"
-                              >
-                                <a
-                                  type="button"
-                                  class="mt-0 btn btn-icon btn-label-warning text-warning"
-                                  title="Renew"
-                                  href="renew-subscription.html"
-                                >
-                                  <i
-                                    class="tf-icons fa-solid fa-rotate-right fs-5"
-                                  ></i>
-                                </a>
-                                <a
-                                  type="button"
-                                  class="mt-0 btn btn-icon btn-label-success"
-                                  title="Upgrade"
-                                  href="upgrade-subscription.html"
-                                >
-                                  <i
-                                    class="tf-icons fa-solid fa-arrow-up-short-wide fs-5"
-                                  ></i>
-                                </a>
-                              </div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="mb-3 col-md-4">
+                            <label for="" class="form-label">Name</label>
+                            <input
+                              class="form-control"
+                              type="text"
+                              id=""
+                              name=""
+                              value=""
+                              autofocus=""
+                            />
+                          </div>
+                          <div class="mb-3 col-md-4">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input
+                              class="form-control"
+                              type="text"
+                              id="email"
+                              name="email"
+                              value="email@example.com"
+                              placeholder="email@example.com"
+                            />
+                          </div>
+                          <div class="mb-3 col-md-4">
+                            <label class="form-label" for="phoneNumber"
+                              >Phone Number</label
+                            >
+                            <div class="input-group input-group-merge">
+                              <input
+                                type="text"
+                                id="phoneNumber"
+                                name="phoneNumber"
+                                class="form-control"
+                                placeholder="202 555 0111"
+                              />
                             </div>
-                          </td>
-                          <td>
-                            <div class="demo-inline-spacing d-flex">
-                              <a
-                                href="view-subscription.html"
-                                type="button"
-                                class="mt-0 btn btn-icon btn-label-primary text-primary"
-                              >
-                                <span class="tf-icons fa-solid fa-eye"></span>
-                              </a>
-                              <button
-                                type="button"
-                                class="mt-0 btn btn-icon btn-label-danger"
-                                title="Delete"
-                                data-bs-toggle="modal"
-                                data-bs-target="#confirmDelete"
-                              >
-                                <span
-                                  class="tf-icons fa-regular fa-trash-can fs-5"
-                                ></span>
-                              </button>
-                            </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-0" />
+                      <h6 class="card-header">Current Subscription</h6>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="mb-3 col-md-6">
+                            <label for="" class="form-label"
+                              >Service Name</label
+                            >
+                            <input
+                              class="form-control"
+                              type="text"
+                              id=""
+                              name=""
+                              value=""
+                              autofocus=""
+                            />
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label class="form-label" for=""
+                              >Service Type</label
+                            >
+                            <select id="" class="select2 form-select">
+                              <option value="">Select Type</option>
+                              <option value="">Coach service</option>
+                            </select>
+                          </div>
+
+                          <div class="col-md-6 col-12 mb-4">
+                            <label for="flatpickr-date" class="form-label"
+                              >Start Date</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="YYYY-MM-DD"
+                              id="flatpickr-date"
+                            />
+                          </div>
+
+                          <div class="col-md-6 col-12 mb-4">
+                            <label for="flatpickr-date-2" class="form-label"
+                              >End Date</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="YYYY-MM-DD"
+                              id="flatpickr-date-2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-0" />
+                      <h6 class="card-header">Renew Subscription</h6>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="mb-3 col-md-6">
+                            <label for="" class="form-label">Price</label>
+                            <input
+                              class="form-control"
+                              type="text"
+                              id=""
+                              name=""
+                              value=""
+                              autofocus=""
+                            />
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label class="form-label" for="">Currency</label>
+                            <select id="" class="select2 form-select">
+                              <option value="">USD</option>
+                              <option value="">TL</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-0" />
+                      <h6 class="card-header">Payment</h6>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="mb-3 col-md-6">
+                            <label for="" class="form-label"
+                              >Payment Type</label
+                            >
+                            <input
+                              class="form-control"
+                              type="text"
+                              id=""
+                              name=""
+                              value=""
+                              autofocus=""
+                            />
+                          </div>
+                          <div class="mb-3 col-md-3">
+                            <label class="form-label" for=""
+                              >Auto Renewal</label
+                            >
+                            <select id="" class="select2 form-select">
+                              <option value="">Yes</option>
+                              <option value="">no</option>
+                            </select>
+                          </div>
+                          <div class="mb-3 col-md-3">
+                            <label class="form-label" for="">Status</label>
+                            <select id="" class="select2 form-select">
+                              <option value="">Not Paid</option>
+                              <option value="">Paid</option>
+                            </select>
+                          </div>
+                          <div class="col-md-6 col-12 mb-4">
+                            <label for="flatpickr-date-3" class="form-label"
+                              >Start Date</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="YYYY-MM-DD"
+                              id="flatpickr-date-3"
+                            />
+                          </div>
+
+                          <div class="col-md-6 col-12 mb-4">
+                            <label for="flatpickr-date-4" class="form-label"
+                              >End Date</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="YYYY-MM-DD"
+                              id="flatpickr-date-4"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-0" />
+
+                      <div class="card-body">
+                        <div class="mt-2 text-end">
+                          <a
+                            type="submit"
+                            class="btn btn-success me-2"
+                            href="payment.html"
+                          >
+                            Pay
+                          </a>
+                          <button type="reset" class="btn btn-label-danger">
+                            Cancel
+                          </button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -509,6 +630,7 @@
       <!-- Drag Target Area To SlideIn Menu On Small Screens -->
       <div class="drag-target"></div>
     </div>
+    <!-- / Layout wrapper -->
     <!-- Confirm delete modal -->
     <div class="modal fade" id="confirmDelete" tabindex="-1" aria-hidden="true">
       <div
@@ -550,6 +672,7 @@
       </div>
     </div>
     <!--/ Confirm delete modal -->
+
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
     <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
@@ -566,17 +689,25 @@
     <!-- endbuild -->
 
     <!-- Vendors JS -->
-    <script src="../../assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
-    <!-- Flat Picker -->
-    <script src="../../assets/vendor/libs/moment/moment.js"></script>
-    <script src="../../assets/vendor/libs/flatpickr/flatpickr.js"></script>
-    <!-- Form Validation -->
+    <script src="../../assets/vendor/libs/select2/select2.js"></script>
     <script src="../../assets/vendor/libs/formvalidation/dist/js/FormValidation.min.js"></script>
     <script src="../../assets/vendor/libs/formvalidation/dist/js/plugins/Bootstrap5.min.js"></script>
     <script src="../../assets/vendor/libs/formvalidation/dist/js/plugins/AutoFocus.min.js"></script>
+    <script src="../../assets/vendor/libs/cleavejs/cleave.js"></script>
+    <script src="../../assets/vendor/libs/cleavejs/cleave-phone.js"></script>
+    <script src="../../assets/vendor/libs/sweetalert2/sweetalert2.js"></script>
+    <script src="../../assets/vendor/libs/flatpickr/flatpickr.js"></script>
+    <script src="../../assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="../../assets/vendor/libs/jquery-repeater/jquery-repeater.js"></script>
+    <script src="../../assets/vendor/libs/pickr/pickr.js"></script>
 
     <!-- Main JS -->
     <script src="../../assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="../../assets/js/pages-account-settings-account.js"></script>
+    <script src="../../assets/js/forms-pickers.js"></script>
+    <script src="../../assets/js/forms-extras.js"></script>
 
     <!-- Data Table  -->
     <script>

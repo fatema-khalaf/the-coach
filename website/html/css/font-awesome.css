@@ -73,6 +73,12 @@
 .pull-left {
   float: left;
 }
+[dir="rtl"] .pull-right {
+  float: left;
+}
+[dir="rtl"] .pull-left {
+  float: right;
+}
 .fa.pull-left {
   margin-right: .3em;
 }

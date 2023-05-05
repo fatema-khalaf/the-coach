@@ -329,6 +329,10 @@
 	.banner-section .image-column .text-box{
 		left:0px;
 	}
+	[dir='rtl'] .banner-section .image-column .text-box{
+		right:0px;
+		left:unset !important;
+	}
 	
 	.banner-section .content-column{
 		margin-bottom:40px;

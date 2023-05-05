@@ -203,7 +203,7 @@
 		autoWidth: false,
 
 		startPosition: 0,
-		rtl: false,
+		rtl:  $("html").attr("dir") == "ltr" ? false : true,
 
 		smartSpeed: 250,
 		fluidSpeed: false,

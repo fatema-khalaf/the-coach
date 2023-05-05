@@ -56,6 +56,8 @@
 	.testimonial-block-two .inner-box .content-column .inner-column{
 		padding-right:0px;
 		padding-left:0px;
+		padding-inline-start: 0px;
+		padding-inline-end: 0px;
 	}
 	
 	.shop-single-section .lower-section .row{
@@ -69,11 +71,11 @@
 	.shop-single-section .basic-details .image-column .image,
 	.testimonial-block-two .inner-box .image-column .inner-column,
 	.business-section .content-column .inner-column{
-		padding-right:0px;
+		padding-right:0px;padding-inline-end: 0px;
 	}
 	
 	.motivation-section .content-column .inner-column{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 	
 	.motivation-section .inner-container{
@@ -104,7 +106,7 @@
 	}
 	
 	.consult-section-two .image-column .inner-column{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 	
 	.consult-section-two .icon-layer-three{
@@ -145,6 +147,7 @@
 	
 	.connection-section .content-column .inner-column{
 		margin-right:0px;
+		margin-inline-end:0px;
 	}
 	
 	.connection-section .content-column .feature-block-three:nth-child(2){
@@ -152,16 +155,16 @@
 	}
 	
 	.relationship-section .content-column .inner-column{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 	
 	.relationship-section .blocks-column .inner-column{
-		padding-right:0px;
+		padding-right:0px;padding-inline-end: 0px;
 		margin-left:0px;
 	}
 	
 	.trial-section .form-column .inner-column{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 
 	.trial-section .image-column .inner-column{
@@ -199,7 +202,7 @@
 	}
 	
 	.coaching-section .image-column .inner-column{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 	
 	.testimonial-section-three .owl-nav{
@@ -227,7 +230,7 @@
 	}
 	
 	.shop-form .billing-inner{
-		padding-right:0px;
+		padding-right:0px;padding-inline-end: 0px;
 	}
 	
 	.contact-page-section .info-column .inner-column{
@@ -310,7 +313,7 @@
 	}
 	
 	.info-section .question-column .inner-column{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 	
 	.main-header .nav-outer{
@@ -364,6 +367,7 @@
 	
 	.motivation-section .content-column .lower-text{
 		margin-left:0px;
+		margin-inline-start:0px ;
 		margin-bottom:40px;
 		padding:35px 35px;
 	}
@@ -383,7 +387,7 @@
 	
 	.consult-section-two .content-column .inner-column,
 	.consult-section-two .content-column .blocks-outer{
-		padding-right:0px;
+		padding-right:0px;padding-inline-end: 0px;
 	}
 	
 	.main-header.header-style-three .header-lower .logo-box{
@@ -409,7 +413,7 @@
 	}
 	
 	.testimonial-block-three .inner-box .content-column .inner-column{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 	
 	.testimonial-block-three .inner-box .content-column .quote{
@@ -442,6 +446,10 @@
 	
 	.connection-section .color-two{
 		right:0px;
+	}
+	[dir="rtl"] .connection-section .color-two{
+		left:0px;
+		right:unset !important;
 	}
 	
 	.relationship-section .content-column{
@@ -550,7 +558,7 @@
 	}
 	
 	.testimonial-section-three .sec-title{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 	
 	.testimonial-block-three .inner-box .content-column .inner-column{
@@ -769,7 +777,7 @@
 	}
 	
 	.main-header .info-box{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 		text-align:center;
 		width:100%;
 		margin-right:0px;
@@ -988,7 +996,7 @@
 	}
 	
 	.consult-section .content-column .inner-column{
-		padding-right:0px;
+		padding-right:0px;padding-inline-end: 0px;
 	}
 	
 	.testimonial-section .owl-carousel .owl-stage-outer{
@@ -1045,6 +1053,7 @@
 	
 	.motivation-section .content-column .lower-text{
 		margin-right:0px;
+		margin-inline-end:0px ;
 	}
 	
 	.relationship-section .blocks-column .feature-block-four:nth-child(2n){
@@ -1052,7 +1061,7 @@
 	}
 	
 	.relationship-title-section .sec-title{
-		padding-left:0px;
+		padding-left:0px;padding-inline-start: 0px;
 	}
 	
 	.relationship-title-section{
@@ -1082,6 +1091,8 @@
 	
 	.course-block-two .inner-box{
 		padding-left:0px;
+		padding-inline-start: 0px;
+		
 	}
 	
 	.course-block-two .inner-box .image{
@@ -1276,6 +1287,7 @@
 	
 	.appointment-section .content-column .inner-column{
 		padding-left:0px;
+		padding-inline-start: 0px;
 	}
 	
 	.events-detail-section .content-column .options-box{
@@ -1393,6 +1405,7 @@
 	
 	.consult-section .image-column .inner-column{
 		padding-left:0px;
+		padding-inline-start: 0px;
 	}
 	
 	.consult-section-two .image-column .image-content{
@@ -1406,6 +1419,7 @@
 	
 	.services-block .inner-box .content{
 		padding-left:0px;
+		padding-inline-start: 0px;
 	}
 	
 	.newsletter-form .form-group input[type="submit"], .newsletter-form .form-group button{
@@ -1420,6 +1434,7 @@
 	
 	.feature-block-three .inner-box{
 		padding-left:0px;
+		padding-inline-start: 0px;
 	}
 	
 	.feature-block-three .inner-box .icon-box{
@@ -1442,6 +1457,7 @@
 	
 	.coach-block .inner-box .content{
 		padding-left:0px;
+		padding-inline-start: 0px;
 	}
 	
 	.coach-block .inner-box .content .icon{
@@ -1507,6 +1523,7 @@
 	.course-detail-section .comments-area .comment,
 	.author-box .box-inner{
 		padding-left:0px;
+		padding-inline-start: 0px;
 	}
 	
 	.course-detail-section .comments-area .comment-box .author-thumb{

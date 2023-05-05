@@ -855,7 +855,9 @@ img{
 
 .main-header .header-top{
 	position:relative;
-	box-shadow:inset 0px -10px 15px rgba(0,0,0,0.03);
+	background-color: #fff7f2;
+
+	/* box-shadow:inset 0px -10px 15px rgba(0,0,0,0.03); */
 }
 
 /* Header Top */
@@ -5360,7 +5362,8 @@ img{
 
 .services-block .inner-box .content{
 	position:relative;
-	padding-left:110px;
+	/* padding-left:110px; */
+	padding-inline-start: 110px;
 }
 
 .services-block .inner-box .content .icon-box{
@@ -5375,6 +5378,11 @@ img{
 	line-height:80px;
 	font-size:46px;
 	background-color:#fff7f2;
+}
+[dir="rtl"] .services-block .inner-box .content .icon-box{
+	right:0px;
+	left: unset !important;
+	
 }
 
 .services-block .inner-box .content h5{
@@ -5406,6 +5414,9 @@ img{
 	color:#fc9a36;
 	font-size:16px;
 	font-weight:500;
+}
+[dir='rtl'] .services-block .inner-box .content .explore .arrow img{
+rotate: 180deg;
 }
 
 .services-block.style-two .inner-box .content .icon-box{
@@ -5787,9 +5798,15 @@ img{
 	position:relative;
 	font-size:18px;
 	margin-top:50px;
-	margin-right:150px;
-	margin-left:-150px;
-	padding:35px 30px 35px 100px;
+	/* margin-right:150px;
+	margin-left:-150px; */
+	margin-inline-end:150px ;
+	margin-inline-start:-150px ;
+	/* padding:35px 30px 35px 100px; */
+	padding-inline-start: 100px;
+	padding-inline-end: 30px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 	background-color:#f6f1eb;
 	border-bottom:4px solid #78d1c3;
 }
@@ -5941,6 +5958,12 @@ img{
 	padding:15px 10px;
 	background-color:#fc9a36;
 	text-transform:uppercase;
+}
+[dir="rtl"] .newsletter-form .form-group input[type="submit"],
+.newsletter-form .form-group button {
+	left:0px;
+	right:unset !important;
+	rotate: 180deg;
 }
 
 /*** 
@@ -6365,7 +6388,8 @@ img{
 
 .connection-section .content-column .inner-column{
 	position:relative;
-	margin-right:-200px;
+	margin-inline-end: -200px;
+	/* margin-right:-200px; */
 }
 
 .connection-section .content-column .sec-title .text{
@@ -6398,9 +6422,15 @@ img{
 
 .feature-block-three .inner-box{
 	position:relative;
-	padding-left:85px;
+	/* padding-left:85px; */
+	padding-inline-start: 85px;
 }
 
+.feature-block-three .inner-box .icon-box{
+	right:0px;
+	left:unset !important;
+
+}
 .feature-block-three .inner-box .icon-box{
 	position:absolute;
 	top:0px;

@@ -51,6 +51,7 @@
 	.consult-section-two .content-column .lower-image{
 		margin-left:0px;
 		z-index:10;
+		/* display: none; */
 	}
 	
 	.testimonial-block-two .inner-box .content-column .inner-column{
@@ -103,6 +104,7 @@
 	
 	.consult-section-two .image-column .inner-column{
 		margin-right:0px;
+		margin-inline-end: 0px;
 	}
 	
 	.consult-section-two .image-column .inner-column{
@@ -131,6 +133,7 @@
 	
 	.consult-section-two .image-column .image-content{
 		bottom:0px;
+		z-index: 11;
 	}
 	
 	.main-header.header-style-three .header-lower .outer-container{
@@ -326,7 +329,7 @@
 	}
 	
 	.banner-section .content-column .inner-column{
-		padding-top:80px;
+		padding-top:0px;
 	}
 	
 	.banner-section .image-column .text-box{
@@ -346,7 +349,8 @@
 	}
 	
 	.consult-section-two .image-column .image-content{
-		margin-left:0px;
+		margin-left:0px !important;
+		margin-right: 0px !important;
 	}
 	
 	.services-section{
@@ -1021,9 +1025,9 @@
 		margin-bottom:30px;
 	}
 	
-	.connection-section .content-column .feature-block-three:nth-child(2) .inner-outer{
+	/* .connection-section .content-column .feature-block-three:nth-child(2) .inner-outer{
 		padding:0px;
-	}
+	} */
 	
 	.course-single-title-section h2 br,
 	.course-single-title-section .pattern-layer-four,
@@ -1422,11 +1426,11 @@
 		padding-inline-start: 0px;
 	}
 	
-	.newsletter-form .form-group input[type="submit"], .newsletter-form .form-group button{
+	/* .newsletter-form .form-group input[type="submit"], .newsletter-form .form-group button{
 		position:relative;
 		width:100%;
 		margin-top:10px;
-	}
+	} */
 	
 	.main-header .header-lower .outer-box .cart-box .cart-panel{
 		margin-left:-68px;
@@ -1573,4 +1577,16 @@
 	}
 
 	
+}
+@media (max-width: 768px){
+	.center-sn-sc{
+		float: unset !important;
+		text-align: center;
+	}
+	.center-sn-sc .logo{
+		float: unset !important;
+	}
+	.center-sn-sc-social{
+		text-align: center;
+	}
 }

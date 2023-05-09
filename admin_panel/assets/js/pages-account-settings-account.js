@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function (e) {
   {
     const o = document.querySelector("#formAccountSettings"),
       a = document.querySelector("#formAccountDeactivation"),
-      i = a.querySelector(".deactivate-account"),
+      dfd = document.querySelector(".deactivate-account"),
+      i = dfd && a.querySelector(".deactivate-account"),
       s =
         (o &&
           FormValidation.formValidation(o, {
@@ -116,7 +117,6 @@ document.addEventListener("DOMContentLoaded", function (e) {
     const l = document.querySelector(".account-file-input"),
       c = document.querySelector(".account-image-reset");
     if (e) {
-        console.log(e);
       const r = e.src;
       (l.onchange = () => {
         l.files[0] && (e.src = window.URL.createObjectURL(l.files[0]));

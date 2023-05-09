@@ -1182,6 +1182,9 @@
 		width:100%;
 		text-align:center;
 	}
+	.main-header .header-top .top-right-log-lang{
+		width: unset !important;
+	}
 	
 	.main-slider-two .link-box .theme-btn{
 		margin-right:10px;
@@ -1588,5 +1591,10 @@
 	}
 	.center-sn-sc-social{
 		text-align: center;
+	}
+}
+@media (max-width: 345px){
+	.main-header .header-top .top-right-log-lang{
+		display: none;
 	}
 }

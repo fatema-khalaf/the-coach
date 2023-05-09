@@ -653,7 +653,7 @@ h6{
     transition: all 0.4s;
     -webkit-transform: scale(0.2, 1);
     transform: scale(0.2, 1);
-	background-color:#71cac4;
+	background-color:#faa31a;
 }
 
 .btn-style-seven .txt{
@@ -862,6 +862,13 @@ img{
 
 /* Header Top */
 
+[dir="rtl"] .main-header .header-top .top-right-log-lang{
+	float:left !important;
+}
+.main-header .header-top .top-right-log-lang{
+	float:right !important;
+	padding-inline-end: 56px !important;;
+}
 .main-header .header-top .top-left{
 	position:relative;
 	float:left;
@@ -12788,7 +12795,9 @@ rotate: 180deg;
 	position:relative;
 	padding:60px 35px;
 	margin-right:30px;
-	background-color:#5e3065b8;
+	background-image: linear-gradient(to right bottom, rgb(250 185 83) 10%, rgb(94 48 101) 97%);
+
+	/* background-color:#5e3065b8; */
 }
 
 .contact-page-section .info-column .color-layer{

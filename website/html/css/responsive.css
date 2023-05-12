@@ -55,10 +55,12 @@
 	}
 	
 	.testimonial-block-two .inner-box .content-column .inner-column{
-		padding-right:0px;
-		padding-left:0px;
-		padding-inline-start: 0px;
-		padding-inline-end: 0px;
+		padding-right:33px;
+		padding-left:20px;
+		padding-inline-start: 33px;
+		padding-inline-end: 20px;
+		padding-top:80px;
+		padding-bottom:80px;
 	}
 	
 	.shop-single-section .lower-section .row{
@@ -354,7 +356,7 @@
 	}
 	
 	.services-section{
-		padding-top:80px;
+		padding-top:0px;
 	}
 	
 	.testimonial-block-two .inner-box .content-column{
@@ -372,6 +374,7 @@
 	.motivation-section .content-column .lower-text{
 		margin-left:0px;
 		margin-inline-start:0px ;
+		margin-inline-end:0px ;
 		margin-bottom:40px;
 		padding:35px 35px;
 	}
@@ -1601,5 +1604,6 @@
 @media (max-width: 530px){
 	.coach h1 {
 		font-size: 190px;
+		margin-top: 40px;
 	}
 }

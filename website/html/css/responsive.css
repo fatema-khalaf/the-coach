@@ -1598,3 +1598,8 @@
 		display: none;
 	}
 }
+@media (max-width: 530px){
+	.coach h1 {
+		font-size: 190px;
+	}
+}

@@ -128,7 +128,7 @@ document.getElementById("layout-menu") &&
             o.classList.remove("selected");
           this.classList.add("selected"),
             (s[0].querySelector(".dropdown-toggle .fi").className = t),
-            i18next.changeLanguage(e, (e, t) => {
+            "undefined" != typeof i18next && i18next.changeLanguage(e, (e, t) => {
               if (e) return console.log("something went wrong loading", e);
               l();
             });

@@ -49,9 +49,9 @@
 
 /* 
 
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-family: 'Merienda', cursive;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 
 */
 
@@ -125,13 +125,14 @@ body {
 	background: #ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-family: "Rubik", sans-serif;
-	/* font-family: 'Rubik', sans-serif; */
+	/* font-family: "Ubuntu", sans-serif; */
+	font-family: "Ubuntu";
+	/* font-family: 'Ubuntu', sans-serif; */
 	text-align: unset;
 }
 
 .lan-font {
-	/* font-family:  'arabic','Rubik', sans-serif; */
+	/* font-family:  'arabic','Ubuntu', sans-serif; */
 	font-family: "Cairo", sans-serif;
 }
 a {
@@ -164,7 +165,7 @@ h6 {
 	margin: 0px;
 	background: none;
 	line-height: 1.2em;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 input,
@@ -404,7 +405,7 @@ h6 {
 	padding: 15px 42px;
 	background: #5e3065;
 	text-transform: capitalize;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .btn-style-three:before {
@@ -515,7 +516,7 @@ h6 {
 	-moz-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .btn-style-five:before {
@@ -570,7 +571,7 @@ h6 {
 	-moz-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .btn-style-six:before {
@@ -641,7 +642,7 @@ h6 {
 	-moz-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .btn-style-seven:before {
@@ -789,7 +790,7 @@ img {
 
 .scroll-to-tops:hover {
 	color: #ffffff;
-	background: #faa31a;
+	background: #863193;
 }
 
 /*** 
@@ -1492,7 +1493,7 @@ img {
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .sticky-header .main-menu .navigation > li {
@@ -3204,7 +3205,7 @@ img {
 	font-size: 36px;
 	line-height: 1em;
 	display: inline-block;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .fact-counter .column .inner h6 {
@@ -3226,7 +3227,7 @@ img {
 }
 
 .fact-counter.style-two .column:nth-child(2) .inner {
-	/* background-color:#e4edf4; */
+	/* background-color:#fcf8f3; */
 	background-image: linear-gradient(182deg, #ffc107, #faa31a);
 }
 
@@ -3244,7 +3245,7 @@ img {
 } */
 
 .fact-counter.style-two .column:nth-child(4) .inner {
-	background-color: #e4edf4;
+	background-color: #fcf8f3;
 	background-image: linear-gradient(182deg, #ffc107, #faa31a);
 }
 
@@ -3352,7 +3353,7 @@ img {
 	position: relative;
 	color: #0c0d24;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .welcome-section .form-column .text {
@@ -3440,7 +3441,7 @@ img {
 
 .default-form.style-two .form-group button {
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 /*** 
@@ -3550,7 +3551,7 @@ img {
 	top: 0px;
 	width: 150px;
 	height: 100%;
-	background-color: #e4edf4;
+	background-color: #fcf8f3;
 }
 
 .business-section-two .title-column .inner-column h2 {
@@ -3628,7 +3629,7 @@ img {
 }
 
 .business-block .inner-box h5 {
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .business-block .inner-box h5 a {
@@ -3781,7 +3782,7 @@ img {
 	width: 430px;
 	height: 430px;
 	border-radius: 50%;
-	background-color: #e4edf4;
+	background-color: #fcf8f3;
 }
 
 .consult-section .image-column .image-content {
@@ -4082,7 +4083,7 @@ img {
 	top: 0px;
 	bottom: 0px;
 	width: 62%;
-	background-color: #e4edf4;
+	background-color: #fcf8f3;
 }
 
 .testimonial-block {
@@ -4349,7 +4350,7 @@ img {
 	top: 0px;
 	right: 0px;
 	bottom: 65px;
-	background-color: #e4edf4;
+	background-color: #fcf8f3;
 }
 
 .info-section .inner-container {
@@ -4384,7 +4385,7 @@ img {
 	color: #0c0d24;
 	font-size: 30px;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .info-section .form-column .text {
@@ -4528,7 +4529,7 @@ img {
 	transition: all 300ms ease;
 	background: none;
 	border-bottom: 1px solid #ffffff;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .subscribe-form-two .form-group textarea::-webkit-input-placeholder,
@@ -4570,7 +4571,7 @@ img {
 
 .info-section .question-column h4 {
 	margin-bottom: 12px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .info-section .question-column h6 {
@@ -4709,7 +4710,7 @@ img {
 
 .main-footer .footer-widget h5 {
 	margin-bottom: 15px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .main-footer .info-widget {
@@ -5024,7 +5025,7 @@ img {
 	font-size: 24px;
 	opacity: 0.8;
 	margin-top: 35px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .banner-section .content-column .signup a {
@@ -5136,6 +5137,10 @@ img {
 	height: 58px;
 }
 
+[dir="rtl"] .consult-section-two .icon-layer-three {
+	left: -85px;
+right: unset !important;
+}
 .consult-section-two .icon-layer-three {
 	position: absolute;
 	right: -85px;
@@ -5447,7 +5452,7 @@ img {
 .services-block .inner-box .content h5 {
 	position: relative;
 	margin-bottom: 12px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .services-block .inner-box .content h5 a {
@@ -5615,7 +5620,7 @@ img {
 	top:-160px;
 	width:150px;
 	bottom:-10px;
-	background-color:#e4edf4; */
+	background-color:#fcf8f3; */
 }
 
 .testimonial-block-two .inner-box .author-info-box {
@@ -5643,7 +5648,7 @@ img {
 
 .testimonial-block-two .inner-box .author-info-box h5 {
 	margin-bottom: 10px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	color: #faa31a;
 }
 .testimonial-block-two .inner-box .author-info-box .designation {
@@ -5831,7 +5836,7 @@ img {
 	color: #faa31a;
 	font-size: 16px;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .motivation-section .content-column .title:before {
@@ -5873,7 +5878,7 @@ img {
 	color: #0c0d24;
 	font-size: 20px;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .motivation-section .content-column .read .arrow {
@@ -6216,7 +6221,7 @@ img {
 	color: #0c0d24;
 	font-weight: 600;
 	text-transform: uppercase;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .banner-section-two .image-column {
@@ -6270,7 +6275,7 @@ img {
 	color: #0c0d24;
 	opacity: 0.9;
 	margin-top: 25px;
-	font-family: "Rubik";
+	font-family: "Ubuntu" ,sans-serif;
 }
 
 .feature-block-two:nth-child(2) .inner-box {
@@ -6377,7 +6382,7 @@ img {
 	width: 425px;
 	height: 425px;
 	border-radius: 50%;
-	background-color: #e4edf475;
+	background-color: #fcf8f375;
 	/* background-color:#e4f6ff; */
 }
 
@@ -6557,7 +6562,7 @@ img {
 
 .feature-block-three .inner-box h4 {
 	margin-bottom: 15px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .feature-block-three .inner-box h4 a {
@@ -6584,7 +6589,7 @@ img {
 	color: #faa31a;
 	font-size: 18px;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	-webkit-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
@@ -6787,7 +6792,7 @@ img {
 	color: #0c0d24;
 	opacity: 0.9;
 	margin-top: 25px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .feature-block-four:nth-child(2) .inner-box {
@@ -6940,7 +6945,7 @@ img {
 
 .trial-section .form-column h3 {
 	margin-bottom: 50px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .trial-section.style-two .inner-container {
@@ -7066,7 +7071,7 @@ img {
 }
 
 .case-study-section .content-column h3 {
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	margin-bottom: 20px;
 }
 
@@ -7217,7 +7222,7 @@ img {
 
 .news-block-two .inner-box h5 {
 	margin-bottom: 15px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .news-block-two .inner-box h5 a {
@@ -7246,7 +7251,7 @@ img {
 	color: #0c0d24;
 	font-size: 14px;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .news-block-two .inner-box .arrow img {
@@ -7604,7 +7609,7 @@ img {
 	color: #0c0d24;
 	font-weight: 600;
 	text-transform: uppercase;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .banner-section-three .content-column .video-box {
@@ -7853,7 +7858,7 @@ img {
 	height: 425px;
 	border-radius: 50%;
 	/* background-color:#e4f6ff; */
-	background-color: #e4edf475;
+	background-color: #fcf8f375;
 }
 
 .certificate-section .color-two {
@@ -8045,7 +8050,7 @@ img {
 .certificate-block .inner-box h4 {
 	position: relative;
 	margin-top: 32px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .certificate-block .inner-box h4 a {
@@ -8078,7 +8083,7 @@ img {
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 15px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -8373,7 +8378,7 @@ img {
 .event-block .inner-box .lower-content h4 {
 	position: relative;
 	margin-bottom: 15px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .event-block .inner-box .lower-content h4 a {
@@ -8493,7 +8498,7 @@ img {
 .testimonial-section-three {
 	position: relative;
 	padding: 120px 0px 0px;
-	background-color: #e4edf4;
+	background-color: #fcf8f3;
 }
 
 .testimonial-section-three .auto-container {
@@ -8526,7 +8531,7 @@ img {
 	bottom: 0px;
 	width: 1000px;
 	height: 570px;
-	background-color: #e4edf4;
+	background-color: #fcf8f3;
 	clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
 }
 
@@ -8671,7 +8676,7 @@ img {
 .testimonial-block-three .inner-box .content-column h6 {
 	color: #0c0d24;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .testimonial-block-three .inner-box .content-column .designation {
@@ -8680,7 +8685,7 @@ img {
 	opacity: 0.8;
 	font-size: 16px;
 	margin-bottom: 25px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .testimonial-block-three .inner-box .content-column .text {
@@ -8689,7 +8694,7 @@ img {
 	z-index: 1;
 	line-height: 1.5em;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .testimonial-block-three .inner-box .image-column {
@@ -8735,7 +8740,8 @@ img {
 	position: relative;
 	margin-bottom: 140px;
 	padding: 170px 0px 170px;
-	background-color: #e4edf4;
+	background-color: #fcf8f3;
+	/* background-image: linear-gradient(182deg, #ffc107, #faa31a); */
 }
 
 .appointment-section .auto-container {
@@ -9018,7 +9024,7 @@ img {
 	margin-right: 10px;
 	font-weight: 700;
 	display: inline-block;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .page-title-section .title-column .page-breadcrumb li:before {
@@ -9219,7 +9225,7 @@ img {
 	font-size: 50px;
 	line-height: 1em;
 	display: inline-block;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .fact-counter-two .column .inner h6 {
@@ -9488,7 +9494,7 @@ img {
 	font-size: 50px;
 	line-height: 1em;
 	display: inline-block;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .fact-counter-three .column .inner h6 {
@@ -9572,14 +9578,15 @@ img {
 	padding: 50px 40px;
 	border-radius: 0px;
 	text-align: center;
-	background-color: #fdefff;
+	background-image: linear-gradient(182deg, #ffc107, #faa31a);
+	/* background-color: #fdefff; */
 }
 
 .question-block .inner-box .icon-box {
 	position: relative;
 	font-size: 64px;
 	line-height: 1em;
-	color: #33b3f5;
+	color: #06142d;
 	margin-bottom: 25px;
 }
 
@@ -9615,28 +9622,28 @@ img {
 }
 
 .question-block:nth-child(2) .inner-box {
-	background-color: #e9f5ef;
-}
+    background-image: linear-gradient(182deg, rgb(231, 72, 255), rgb(94, 48, 101));}
 
-.question-block:nth-child(2) .inner-box .icon-box {
+/* .question-block:nth-child(2) .inner-box .icon-box {
 	color: #41c985;
-}
+} */
 
-.question-block:nth-child(2) .inner-box .read-more {
+/* .question-block:nth-child(2) .inner-box .read-more {
 	color: #41c985;
-}
+} */
 
 .question-block:nth-child(3) .inner-box {
-	background-color: #fefae1;
+	/* background-color: #fefae1; */
+	background-image: linear-gradient(182deg, #ffc107, #faa31a);
 }
 
-.question-block:nth-child(3) .inner-box .icon-box {
+/* .question-block:nth-child(3) .inner-box .icon-box {
 	color: #e3cd45;
 }
 
 .question-block:nth-child(3) .inner-box .read-more {
 	color: #e3cd45;
-}
+} */
 
 /*** 
 
@@ -9850,7 +9857,7 @@ img {
 	font-weight: 700;
 	line-height: 1em;
 	margin-bottom: 30px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .price-block .inner-box .price span {
@@ -10120,7 +10127,7 @@ img {
 
 .events-detail-section .lower-section h4 {
 	position: relative;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .events-detail-section .lower-section .bold-text {
@@ -10133,7 +10140,7 @@ img {
 
 .events-detail-section .lower-section h5 {
 	margin-bottom: 15px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .events-detail-section .lower-section .tags {
@@ -10184,7 +10191,7 @@ img {
 	color: #0c0d24;
 	font-weight: 700;
 	margin-bottom: 20px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .events-detail-section .lower-section .date-list {
@@ -11650,7 +11657,7 @@ img {
 	color: #0c0d24;
 	line-height: 1.3em;
 	margin-top: 25px;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .course-detail-section .info-column .text {
@@ -12614,7 +12621,7 @@ img {
 	position: relative;
 	margin-bottom: 10px;
 	line-height: 1.5em;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .news-block-five .inner-box .lower-content h6 a {
@@ -12795,7 +12802,7 @@ img {
 
 .contact-page-section {
 	position: relative;
-	padding: 130px 0px 70px;
+	padding: 130px 0px 100px;
 }
 
 .contact-page-section .inner-container {
@@ -12838,14 +12845,13 @@ img {
 	position: relative;
 	padding: 60px 35px;
 	margin-right: 30px;
-	background-image: linear-gradient(to right bottom, rgb(250 185 83) 10%, rgb(94 48 101) 97%);
-
-	/* background-color:#5e3065b8; */
+	background-image: linear-gradient(to right bottom, #faa31a26, #5e306540);
+	/* background-image: linear-gradient(to right bottom, rgb(94, 48, 101), rgb(221 0 255)); */
 }
 
 .contact-page-section .info-column .color-layer {
 	position: absolute;
-	left: -90px;
+	left: -45px;
 	bottom: -90px;
 	width: 560px;
 	height: 560px;
@@ -12880,7 +12886,7 @@ img {
 	color: rgba(6, 20, 45, 0.8);
 }
 
-.contact-page-section .info-column .info-box li .icon {
+[dir="rtl"] .contact-page-section .info-column .info-box li .icon {
 	left: unset !important;
 	right: 0px;
 }
@@ -12890,7 +12896,7 @@ img {
 	top: 0px;
 	width: 60px;
 	height: 60px;
-	color: #7b7c7d;
+	color: #faa31a;
 	font-size: 24px;
 	line-height: 60px;
 	text-align: center;
@@ -12944,7 +12950,7 @@ img {
 	color: #06142d;
 	margin-bottom: 10px;
 	text-transform: capitalize;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .contact-page-section .form-column .text {
@@ -12981,7 +12987,7 @@ img {
 	height: 55px;
 	font-size: 14px;
 	border-radius: 3px;
-	background: #f3f4f5;
+	background: #fff7f0;
 	border: 1px solid transparent;
 	-webkit-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -13007,7 +13013,7 @@ img {
 	padding: 15px 25px 25px;
 	color: #888888;
 	height: 185px;
-	background: #f3f4f5;
+	background: #fff7f0;
 	resize: none;
 	font-size: 14px;
 	border-radius: 3px;
@@ -13273,7 +13279,7 @@ img {
 	padding: 10px 28px 9px;
 	border-radius: 50px;
 	border: 1px solid #e8e0d8;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	transition: all 500ms ease;
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -13451,7 +13457,7 @@ img {
 	color: #faa31a;
 	font-size: 36px;
 	font-weight: 700;
-	font-family: "Rubik", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .shop-single-section .basic-details .info-column .item-price span {
@@ -14798,3 +14804,4 @@ img {
 .log-bg{
 	background-image: unset !important;
 }
+
